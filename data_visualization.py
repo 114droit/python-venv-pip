@@ -1,4 +1,14 @@
 import matplotlib.pyplot as plt
+import pandas as pd
+
+# Datenanalyse mit pandas
+data = {
+    'Dezimalziffern': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+    'Quadrate': [0**2, 1**2, 2**2, 3**2, 4**2, 5**2, 6**2, 7**2, 8**2, 9**2],
+    'Kubisch': [0**3, 1**3, 2**3, 3**3, 4**3, 5**3, 6**3, 7**3, 8**3, 9**3]
+}
+
+df = pd.DataFrame(data).to_csv('zahlen.csv')
 
 # Beispiel-Daten: Zahlen von 0 bis 9 und ihre Quadrate
 x = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
