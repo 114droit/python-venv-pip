@@ -17,8 +17,8 @@ plt.ylabel('3.Potenz')
 # Legende anzeigen
 plt.legend()
 
+# Diagramm speichern
+plt.savefig("quadratkubikplot.png")
+
 # Diagramm anzeigen
 plt.show()
-
-# Diagramm speichern
-plt.savefig("quadratkubikplot.png",dpi=200)
